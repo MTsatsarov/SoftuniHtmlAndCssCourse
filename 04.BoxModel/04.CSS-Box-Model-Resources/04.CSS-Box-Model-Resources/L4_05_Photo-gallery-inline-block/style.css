@@ -1,0 +1,22 @@
+body {
+    background-color: #F5F5F5;
+    margin:0;
+}
+ul {
+    margin:30, auto;
+    width: 80%;
+}
+li {
+    align-items: center;
+    list-style: none;
+    display:inline-block;
+    border: 0.4rem solid black;
+    padding:20px;
+    vertical-align: middle;
+    margin: 10px;
+    max-width: 350px;
+}
+
+img {
+    width: 350px;
+}
