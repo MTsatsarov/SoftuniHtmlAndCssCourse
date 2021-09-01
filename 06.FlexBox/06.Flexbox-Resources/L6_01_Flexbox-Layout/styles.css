@@ -1,0 +1,43 @@
+
+body {
+    display:flex;
+align-items:stretch;
+flex-direction: row;
+flex-basis: 100%;
+flex-wrap: wrap;
+align-items: center ;
+justify-content: space-between;
+}
+body>header {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+    border:1px solid black;
+    padding:40px 0px;
+    flex-basis: 100%;
+    margin-bottom: 10px;
+}
+
+body>main {
+  flex-flow:row;
+flex-basis: 65%;
+border: 1px solid black;
+height: 400px;
+}
+
+
+body>aside {
+    flex-flow:row;
+    flex-basis: 30%;
+    border:1px solid black;
+height: 400px;
+
+}
+
+body>footer {
+    margin-top: 10px;
+    flex-flow:row;
+    flex-basis:100%;
+    border:1px solid black;
+height: 100px;
+}

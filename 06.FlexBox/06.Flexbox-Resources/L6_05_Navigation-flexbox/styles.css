@@ -1,0 +1,28 @@
+
+header {
+    border-bottom:2px solid rgb(0, 0, 0);
+    display: flex;
+    margin:0px 20px;
+}
+header>h1 {
+    align-self: flex-start;
+    flex-basis: 80%;
+}
+header>nav {
+    align-self: flex-end;
+}
+header>nav>ul {
+    display: flex;
+
+}
+header>nav>ul>li {
+    margin: 10px;
+    list-style: none;
+}
+header>nav>ul>li>a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+main {
+    margin:0px 20px;
+}

@@ -1,0 +1,35 @@
+table {
+    width: 100%;
+}
+thead {
+    border: none;
+}
+table, tr,td {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(241, 241, 241);
+}
+tr:nth-child(odd)>td {
+    background-color: rgb(241, 241, 241);
+}
+th {
+    background-color: fixed;
+    padding:0px;
+    border:none;
+}
+tr:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+td {
+    margin: 0px;
+}
+⦁ The table, td and th tags must have
+⦁ Border width - 1px
+⦁ Border color - rgb(221, 221, 221)
+⦁ Border style - solid
+⦁ When you hover the table row, the following styles must be updated:
+⦁ Background: rgb(0, 0, 0)
+⦁ Text color: rgb(255, 255, 255)

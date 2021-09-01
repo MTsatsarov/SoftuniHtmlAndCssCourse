@@ -1,0 +1,26 @@
+body {
+    margin-left: 40px;
+    padding: 0 40px;
+    size: 16px;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+}
+header::after {
+background: black;
+display: inline-block;
+width:100%;
+height: 2px;
+}
+
+
+
+
+/* ⦁ Divide your content into header and main tags
+⦁ The entire page font should have the following properties:
+⦁ Size - 16px
+⦁ Line height - 1.5
+⦁ Font family - Helvetica, sans-serif
+⦁ Add class site-title to the paragraph in the header (p.site-title)
+⦁ Change the display property to inline-block
+⦁ Set the font weight to bold
+⦁ Transform the text to uppercase */

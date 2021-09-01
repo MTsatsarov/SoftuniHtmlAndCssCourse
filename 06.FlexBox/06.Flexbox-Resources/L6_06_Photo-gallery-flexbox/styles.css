@@ -1,0 +1,28 @@
+body {
+display: flex;
+font-family: Georgia,serif;
+justify-content: center;
+}
+.gallery {
+    padding: 20px;
+    margin: 15px;
+    background: #F6F6F6;
+}
+.gallery>ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery>ul>li {
+    display: flex;
+    flex-basis: 25%;
+    list-style: none;
+    border: 10px solid black;
+justify-content: center;
+    margin: 10px 5px;
+}
+img {
+    padding: 10px 0px;
+    flex-basis: 80%;
+    align-self: center;
+}
