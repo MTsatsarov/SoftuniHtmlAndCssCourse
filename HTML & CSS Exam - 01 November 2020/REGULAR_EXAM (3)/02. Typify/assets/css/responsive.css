@@ -1,0 +1,50 @@
+@media all and (max-width: 600px) {
+  .banner h2 {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .banner .button.special {
+    width: 530px;
+  }
+  .wrapper > .inner {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature {
+    margin: 0px 10px;
+    width: 90%;
+  }
+  .grid-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .wrapper > .inner.narrow {
+    width: auto;
+  }
+  .grid-form .form-control.narrow {
+    width: auto;
+  }
+
+  .wrapper.style2 input[type="text"],
+  .wrapper.style2 input[type="email"],
+  .wrapper.style2 textarea {
+    background: #fff;
+    border-color: #ddd;
+    margin: 0 12px;
+    width: 95%;
+  }
+  ul.actions li:last-child {
+    width: 100%;
+  }
+  .wrapper.style2 input[type="submit"] {
+    width: 95%;
+  }
+}
