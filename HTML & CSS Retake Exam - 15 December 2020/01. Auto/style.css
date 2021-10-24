@@ -1,0 +1,48 @@
+body {
+    margin: 0%;
+}
+section>img {
+    height: 450px;
+}
+section {
+    width: 60%;
+    display: flex;
+    margin: 80px auto;
+    justify-content: space-between;
+}
+
+article {
+    max-height: 520px;
+    justify-content: center;
+    max-width: 600px;
+    flex-basis: 50%;
+}
+h3 {
+    font-size: 25px;
+    margin: 0%;
+}
+p {
+    color: #A9A9A9;
+}
+ul {
+    padding-left: 0;
+}
+li {
+    margin: 50px,auto;
+    padding: 12px 0;
+    display: flex;
+    align-items: center;
+}
+.liImg {
+    
+    height: 50px;
+    width: 65px;
+}
+span>p {
+    margin: 0%;
+    padding-left: 0;
+}
+h6 {
+    font-size: 16px;
+    margin: 0%;
+}
