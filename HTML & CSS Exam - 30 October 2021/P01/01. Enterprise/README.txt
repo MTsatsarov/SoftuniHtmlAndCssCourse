@@ -1,0 +1,1 @@
+Task was made using resolution 1200px/860px

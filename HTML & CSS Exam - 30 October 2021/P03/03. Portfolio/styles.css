@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Raleway&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+body {
+  font-family: Raleway;
+}
+ul {
+  display: flex;
+  
+}
+li {
+  list-style: none;
+  margin: 10px;
+}
+nav > ul {
+  flex-direction: row-reverse;
+  margin-left: 20px;
+}
+
+p {
+  font-size: 25px;
+}
+i {
+  font-size: 20px;
+}
+section {
+  background: #efefef;
+  margin: 20px auto;
+  width: 90%;
+  display: flex;
+}
+section.header-wrapper {
+  flex-direction: column;
+}
+
+article.header-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header-text {
+  padding: 10%;
+  flex-basis: 30%;
+}
+.header-text::after {
+  content: "|";
+  font-size: 100px;
+  color: #b0b0b0;
+}
+.header-image {
+  flex-basis: 50%;
+}
+img {
+  width: 100%;
+}
+.camera-wrapper {
+  align-items: flex-start;
+}
+.camera-section-text {
+  flex-basis: 50%;
+  padding: 10%;
+}
+.camera-section-text > p {
+  font-style: italic;
+}
+.camera-img {
+  flex-basis: 50%;
+  padding: 5%;
+}
+.head-text {
+  font-size: 50px;
+  color: #b0b0b0;
+}
+.head-text > strong {
+  color: black;
+  font-weight: bolder;
+}
+.camera-section-text > span::before {
+  content: "";
+  color: #b0b0b0;
+}
+
+.sec-p {
+  margin-top: 40px;
+}
+.nd-section-ul {
+  padding-left: 0;
+}
+.nd-section-ul > li > i {
+  font-size: 35px;
+}
+
+.featured-image {
+  padding: 7%;
+  flex-basis: 50%;
+}
+.gallery-container {
+  align-items: center;
+}
+.thumb-3 {
+  flex-basis: 60%;
+  position: relative;
+  left: 223px;
+  z-index: 0;
+}
+.thumb-122 {
+  flex-basis: 60%;
+  position: relative;
+  right: 223px;
+  z-index: 0;
+}
+.thumb-4 {
+  flex-basis: 75%;
+  padding: 50px;
+  z-index: 1;
+}
+.form-text {
+  padding: 3%;
+  text-align: center;
+}
+.form-text > p {
+  font-size: 20px;
+}
+
+.email-form {
+    flex-direction: column;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  align-self: center;
+}
+
+.form > span {
+  margin-bottom: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+input {
+    height: 35px;
+    width: 40%;
+    background: #efefef;
+    color: black;
+}
+textarea{
+    width: 100%;
+    height: 80px;
+    background: #efefef;
+    resize: none;
+}
+
+.form>button {
+    margin-top: 20px;
+    background: black;
+    width: 100%;
+    color: white;
+    border: none;
+    height: 40px;
+}
+
+footer {
+    text-align: center;
+}

@@ -1,0 +1,1 @@
+The button in the contact form is removed because it is also removed in the screenshots.
